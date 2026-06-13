@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fuwari.vercel.app/",
+	site: "https://js-food-blog.vercel.app/",
 	base: "/",
 	trailingSlash: "always",
 	devToolbar: { enabled: false },  // 하단 개발자 툴바 끄기 (어차피 배포 사이트엔 안 뜸)
