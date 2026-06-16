@@ -73,3 +73,10 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	// Please select a dark theme, as this blog theme currently only supports dark background color
 	theme: "github-dark",
 };
+
+// SEO / 검색엔진 등록
+// googleSiteVerification: 구글 서치콘솔에서 'HTML 태그' 방식으로 받은 content 값만 여기 붙여넣으면
+// <meta name="google-site-verification"> 가 자동으로 들어갑니다. (비워두면 출력 안 됨)
+export const seoConfig = {
+	googleSiteVerification: "",
+};
