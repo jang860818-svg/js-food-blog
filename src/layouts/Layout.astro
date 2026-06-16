@@ -85,6 +85,8 @@ const bannerOffset =
 		<meta name="author" content={profileConfig.name}>
 		{seoConfig.googleSiteVerification &&
 			<meta name="google-site-verification" content={seoConfig.googleSiteVerification} />}
+		{seoConfig.naverSiteVerification &&
+			<meta name="naver-site-verification" content={seoConfig.naverSiteVerification} />}
 
 		<meta property="og:site_name" content={siteConfig.title}>
 		<meta property="og:url" content={Astro.url}>

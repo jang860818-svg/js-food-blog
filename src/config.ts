@@ -78,5 +78,6 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 // googleSiteVerification: 구글 서치콘솔에서 'HTML 태그' 방식으로 받은 content 값만 여기 붙여넣으면
 // <meta name="google-site-verification"> 가 자동으로 들어갑니다. (비워두면 출력 안 됨)
 export const seoConfig = {
-	googleSiteVerification: "",
+	googleSiteVerification: "",   // 구글 서치콘솔 'HTML 태그' content 값
+	naverSiteVerification: "",    // 네이버 서치어드바이저 'HTML 태그' content 값
 };
